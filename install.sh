@@ -21,13 +21,12 @@ sleep 5
 pkg install python -y
 
 echo -e "\e[034m"  "Installing youtube-dl\n"
-pip install youtube-dl
-
+pip install yt-dlp
 echo -e "\e[032m"  "Making the Youtube Directory to download the Vidoes\n"
 mkdir ~/storage/shared/Youtube
 
 echo -e "\e[036m"  "Creating youtube-dl folder for config\n"
-mkdir -p ~/.config/youtube-dl
+mkdir -p ~/.config/yt-dlp
 
 echo -e "Creating bin folder\n"
 mkdir ~/bin
